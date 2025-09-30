@@ -8,7 +8,7 @@
 
 Proyek ini terwujud berkat kolaborasi dan komitmen dari anggota Tim Inti Kelompok 11:
 
-| Nama Anggota | NIM | Peran Utama |
+| Nama Anggota | NIM |
 | :--- | :--- | :--- |
 | **Adi Kurniawan** | 23670150 | 
 | **Kelvin Bintang A.** | 23670148 |
