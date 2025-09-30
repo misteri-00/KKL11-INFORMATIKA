@@ -25,7 +25,7 @@ Proyek ini terwujud berkat kolaborasi dan komitmen dari anggota Tim Inti Kelompo
 ## 🌟 Tujuan & Hasil Proyek
 tujuan web ini adalah untuk menjelaskan alur perjalanan dari KKL serta dokumentasi foto-foto kegiatan dan video serta profil anggota kelompok
 
-Aplikasi kini dapat diakses di `https://kkl-11-informatika.vercel.app/`.
+Aplikasi kini dapat diakses di https://kkl-11-informatika.vercel.app/
 
 -----
 
