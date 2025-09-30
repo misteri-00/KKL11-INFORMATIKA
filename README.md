@@ -3,6 +3,7 @@
 # 🚀 KKL11-INFORMATIKA
 
 > Deskripsi singkat dan tujuan utama proyek ini. Proyek ini dikembangkan oleh **Kelompok 11 KKL Universitas PGRI Semarang** sebagai wujud Kuliah kerja lapangan di Bali.
+> Kuliah Kerja Lapangan (KKL) adalah kegiatan akademik yang memberi mahasiswa pengalaman langsung dalam mengamati dan mempelajari proses kerja di industri serta sektor terkait. Kegiatan ini memungkinkan mahasiswa untuk tidak hanya belajar teori di kelas, tetapi juga menyaksikan penerapan ilmu secara nyata, sehingga pemahaman yang diperoleh lebih lengkap dan dapat langsung diaplikasikan.
 
 ## 👥 Tim Inti
 
@@ -23,7 +24,8 @@ Proyek ini terwujud berkat kolaborasi dan komitmen dari anggota Tim Inti Kelompo
 -----
 
 ## 🌟 Tujuan & Hasil Proyek
-tujuan web ini adalah untuk menjelaskan alur perjalanan dari KKL serta dokumentasi foto-foto kegiatan dan video serta profil anggota kelompok
+tujuan web ini adalah untuk menjelaskan alur perjalanan dari KKL serta dokumentasi foto-foto kegiatan dan video serta profil anggota kelompok.
+
 
 Aplikasi kini dapat diakses di https://kkl-11-informatika.vercel.app/
 
