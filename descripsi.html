@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKL KELOMPOK 11 -INFORMATIKA 2025 </title>
+
+    <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body id="top">
+
+    <header class="header" data-header>
+        <div class="overlay" data-overlay></div>
+        <div class="header-top">
+            <div class="container">
+                <a href="tel:+01123456790" class="helpline-box">
+                    <div class="icon-box">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </div>
+                    <div class="wrapper">
+                        <p class="helpline-title"></p>
+                        <p class="helpline-number"></p>
+                    </div>
+                </a>
+                <a href="index.html" class="logo">
+                    <img src="https://drive.google.com/thumbnail?id=1fAMcN-5lCgqaofW5sh6G8o--UBxyuQaB&sz=s800"
+                        alt="Tourly logo" style="width: 10%; margin-left: 150px;">
+                </a>
+                <div class="header-btn-group">
+                    <button class="search-btn" aria-label="Search">
+                        <ion-icon name="search"></ion-icon>
+                    </button>
+                    <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+                <nav class="navbar" data-navbar>
+                    <div class="navbar-top">
+                        <a href="index.html" class="logo">
+                            <img src="https://drive.google.com/thumbnail?id=1fAMcN-5lCgqaofW5sh6G8o--UBxyuQaB&sz=s800"
+                                alt="Tourly logo" style="width: 13%; margin-left: 150px;">
+                        </a>
+                        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                    </div>
+                    <ul class="navbar-list">
+                        <li>
+                            <a href="index.html" class="navbar-link" data-nav-link>home</a>
+                        </li>
+
+                        <li>
+                            <a href="about_us.html" class="navbar-link" data-nav-link>tentang kami</a>
+                        </li>
+
+                        <li>
+                            <a href="destination.html" class="navbar-link" data-nav-link>destinasi</a>
+                        </li>
+
+                        <li>
+                            <a href="gallery.html" class="navbar-link" data-nav-link>gallery</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#">
+                    <button class="btn btn-primary">jelajahi</button>
+                  </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="product-container mx-auto px-4 mt-48 mb-20">
+        <div id="product-card" class="bg-white rounded-xl shadow-2xl overflow-hidden lg:flex lg:max-w-7xl mx-auto">
+
+            <div class="product-image-section lg:w-1/2 p-6 md:p-10 flex flex-col items-center">
+
+                <div class="mb-5 w-full max-w-xl overflow-hidden rounded-lg shadow-lg">
+                    <img id="main-image" src="" alt="Gambar Produk"
+                        class="main-image w-full h-auto object-cover transform hover:scale-[1.03]">
+                </div>
+
+                <div id="thumbnail-images" class="thumbnail-images flex flex-wrap justify-center gap-3">
+                </div>
+            </div>
+
+            <div class="product-description-section lg:w-1/2 p-6 md:p-10 flex flex-col justify-start">
+
+                <h1 id="product-title"
+                    class="product-title text-4xl font-extrabold text-gray-900 mb-4 border-b-2 border-blue-500 pb-2">
+                </h1>
+
+                <div class="modern-features flex flex-col gap-3 mb-6">
+                    <div class="feature-item flex items-center text-gray-600">
+                        <svg class="w-5 h-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                        <span class="font-semibold">Lokasi:</span> <span id="product-location" class="ml-1"></span>
+                    </div>
+                
+                    <div class="feature-item flex items-center text-gray-600">
+                        <svg class="w-5 h-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="font-semibold">Jam :</span> <span id="product-hours" class="ml-1"></span>
+                    </div>
+                </div>
+                
+                <p id="product-description" class="product-description text-gray-700 leading-relaxed mb-8 text-base">
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</main> <footer class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="https://drive.google.com/thumbnail?id=1wewp9q1cWummK6FuLMfqYwb-AkZGiroy&sz=s800" alt="Tourly logo">
+                </a>
+                <p class="footer-text">
+                    Biro Perjalanan Terpercaya, melayani Study Tour, KKL dan paket wisata umum domestik maupun internasional.
+                    Enak, Nyaman, Enjoy, UnggulSelain butuh pasangan, kamu juga butuh piknik....
+                </p>
+            </div>
+            <div class="footer-contact">
+                <h4 class="contact-title">Contact Us</h4>
+                <p class="contact-text">
+                    Feel free to contact and reach us !!
+                </p>
+                <ul>
+                    <li class="contact-item">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <a href="tel:+01123456790" class="contact-link">024 8449959</a>
+                    </li>
+                    <li class="contact-item">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <address>Jl. Sriwijaya no 33 Semarang (Kampus 2 UPGRIS)</address>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-form">
+                <p class="form-text">
+                    Subscribe our newsletter for more update & news !!
+                </p>
+                <form action="" class="form-wrapper">
+                    <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+                    <button type="submit" class="btn btn-secondary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="copyright">
+                &copy; 2025 <a href="">KKL KELOMPOK 11</a>. All rights reserved
+            </p>
+            <ul class="footer-bottom-list">
+                <li>
+                    <a href="#" class="footer-bottom-link">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-bottom-link">Term & Condition</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-bottom-link">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+</a>
+
+<script src="./assets/js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
