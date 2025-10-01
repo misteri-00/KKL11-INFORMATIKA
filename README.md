@@ -58,8 +58,3 @@ Proyek ini dibuat untuk tujuan Pengabdian Masyarakat dan dilisensikan di bawah *
 
 -----
 
-## 📞 Kontak Proyek
-
-  * **Koordinator Tim:** [Nama Koordinator] - [NIM Koordinator]
-  * **Email Resmi KKL:** [Email Ketua Kelompok]
-  * **Repositori:** [https://github.com/NamaOrganisasi/Nama-Proyek-KKL](https://www.google.com/search?q=https://github.com/NamaOrganisasi/Nama-Proyek-KKL)
