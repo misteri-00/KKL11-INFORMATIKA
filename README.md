@@ -52,7 +52,7 @@ Proyek ini bersifat tertutup untuk keperluan KKL, namun **saran dan *feedback***
 
 ## 📜 Lisensi & Hak Cipta
 
-© 2024 **Kelompok 11 KKL Universitas PGRI Semarang**.
+© 2025**Kelompok 11 KKL Universitas PGRI Semarang**.
 
 Proyek ini dibuat untuk tujuan Pengabdian Masyarakat dan dilisensikan di bawah **[Nama Lisensi] License** (misalnya, MIT License).
 
